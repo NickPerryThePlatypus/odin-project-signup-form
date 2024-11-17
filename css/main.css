@@ -8,7 +8,7 @@
 @font-face {
   font-family: Norse;
   font-weight: bold;
-  src: url(/fonts/Norse-Bold.otf);
+  src: url(../fonts/Norse-Bold.otf);
 }
 *, *::before, *::after {
   margin: 0;
@@ -99,7 +99,7 @@ small {
   max-width: 35vw;
   width: 100%;
   min-height: 100%;
-  background: center/cover no-repeat url(/img/bg.jpg);
+  background: center/cover no-repeat url(../img/bg.jpg);
   text-align: center;
   color: #ffffff;
   overflow: hidden;

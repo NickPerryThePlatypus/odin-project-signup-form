@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Registration Page</title>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero__content">
+      <img src="img/odin-lined.png" alt="Halie West green leaves">
+      <h1>Odin</h1>
+    </div>
+    <p class="hero-bottom">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">unsplash</a></p>
+  </div>
+
+  <!-- Form -->
+  <form id="reg-form" class="form" action="#" method="post">
+    <div class="container">
+      <div class="form__info">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+        <p>You <i>know</i> you want to.</p>
+      </div>
+    </div>
+      <div class="form__box">
+        <div class="container">
+          <h2 class="form__title">Let's do this!</h2>
+          <div class="form__fields">
+            <div class="input__field">
+              <label for="f-name" class="label">First Name</label>
+              <input type="text" id="f-name" name="f-name" required>
+              <small>* invalid</small>
+            </div>
+            <div class="input__field">
+              <label for="l-name" class="label">Last Name</label>
+              <input type="text" id="l-name" name="l-name" required>
+              <small>* invalid</small>
+            </div>
+            <div class="input__field">
+              <label for="email" class="label">Email</label>
+              <input type="email" id="email" name="email" required>
+              <small>* invalid</small>
+            </div>
+            <div class="input__field">
+              <label for="phone-number" class="label">Phone Number</label>
+              <input type="number" id="phone-number" name="phone-number" required>
+              <small>* invalid</small>
+            </div>
+            <div class="input__field">
+              <label for="password" class="label">Password</label>
+              <input type="password" id="password" name="password" minlength="8" maxlength="14" required>
+              <small>* invalid</small>
+            </div>
+            <div class="input__field">
+              <label for="password-confirm" class="label">Confirm Password</label>
+              <input type="password" name="password-confirm" id="password-confirm" required>
+              <small>* invalid</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <button class="btn">Create Account</button>
+        <p class="has_acc">Already have an account?
+          <a href="">Log in</a>
+        </p>
+      </div>
+  </form>
+  <script src="js/script.js"></script>
+</body>
+</html>
